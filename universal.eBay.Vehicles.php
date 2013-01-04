@@ -5,6 +5,15 @@
 
 <?php
 
+/*
+	Author: Maxim Vitoshi-Tarasov
+
+	This script takes a csv file with year-make-model info as input.
+	It checks all vehicles against the ebay database to make sure they exist.
+	The output is a properly formatted csv file ready to be input into ebay.
+	
+*/
+
 {# FUNCTiONS
 
 function getYMM($source) {

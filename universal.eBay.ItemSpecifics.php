@@ -5,6 +5,16 @@
 
 <?php
 
+/*
+	Author: Maxim Vitoshi-Tarasov
+
+	This script takes a csv file with Item Specifics info as input.
+	It composes a query based on that info for each record and
+	inserts that information into a msssql database.
+	That creates Item Specifics records on ebay listings.
+	
+*/
+
 if (1) { // VARiABLES
 
 $serverName = "JOHNBRINDELL-PC\XXXXXXXXXXXXX";
