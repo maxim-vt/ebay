@@ -212,9 +212,9 @@ $form = <<<EOT
 				</center>
 EOT;
 
-$uploads = "//orw-file-server/shared/Employees/Jeff/ebay_temp/";
+$uploads = "xxxxxxxxxxxxxxx";
 
-$ISIS_dir = "//orw-file-server/shared/Employees/MAX/007 COMPUTER/ISIS/";
+$ISIS_dir = "xxxxxxxxxxxxxxxxx";
 
 $source = @fopen($_FILES['userfile']['tmp_name'], "r");
 

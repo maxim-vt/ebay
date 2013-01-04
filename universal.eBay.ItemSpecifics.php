@@ -7,8 +7,8 @@
 
 if (1) { // VARiABLES
 
-$serverName = "JOHNBRINDELL-PC\SQLEXPRESSJEFF";
-$connectionOptions = array("Database"=>"BTData");
+$serverName = "JOHNBRINDELL-PC\XXXXXXXXXXXXX";
+$connectionOptions = array("Database"=>"XXXXXXXX");
 
 $database = sqlsrv_connect($serverName, $connectionOptions) or die(var_dump(sqlsrv_errors()));
 
