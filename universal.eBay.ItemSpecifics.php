@@ -15,7 +15,7 @@
 	
 */
 
-if (1) { // VARiABLES
+{# VARiABLES
 
 $serverName = "JOHNBRINDELL-PC\XXXXXXXXXXXXX";
 $connectionOptions = array("Database"=>"XXXXXXXX");
@@ -42,7 +42,7 @@ EOT;
 	
 }
 
-if (1) { // FUNCTiONS
+{# FUNCTiONS
 
 function getParts() {
 
@@ -200,6 +200,7 @@ function makeQuery($array) {
 
 }
 
+{# MAiN
 
 if (empty($_FILES)) echo $form;
 
@@ -218,6 +219,8 @@ echo "Success! Item Specifics for " . $manufacturer . " have been inserted into 
 
 
 sqlsrv_close($database);
+
+}
 
 }
 
